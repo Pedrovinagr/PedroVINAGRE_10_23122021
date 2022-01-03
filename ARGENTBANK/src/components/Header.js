@@ -1,15 +1,12 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom'
 import '../styles/main.css';
 import logo from '../assets/argentBankLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 
-// import { useDispatch } from "react-redux";
-// import {login} from '../features/user'
+
 
 export default function Header () {
-  // const dispatch = useDispatch()
 
     return(
         <nav className="main-nav">
@@ -30,5 +27,3 @@ export default function Header () {
         </nav>        
     )
 }
-
-// onclick={() => {dispatch(logout())}}
